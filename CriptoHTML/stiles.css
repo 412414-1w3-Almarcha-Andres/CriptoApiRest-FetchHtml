@@ -1,0 +1,40 @@
+.grid-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 👈 columnas responsivas */
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.grid-lista li {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: sans-serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.item-cripto span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.item-cripto .nombre {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.item-cripto .valor {
+  color: green;
+}
+
+.item-cripto .fecha {
+  font-size: 0.85rem;
+  color: #666;
+}
+.item-cripto:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+

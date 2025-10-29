@@ -1,0 +1,107 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ParcialWebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Cripto/CriptoPorCategoria": {
+      "get": {
+        "tags": [
+          "Cripto"
+        ],
+        "parameters": [
+          {
+            "name": "categoria",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cripto/ActualizarValor": {
+      "put": {
+        "tags": [
+          "Cripto"
+        ],
+        "parameters": [
+          {
+            "name": "simbolo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "valorActual",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cripto/ActualizarEstado": {
+      "put": {
+        "tags": [
+          "Cripto"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "estado",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cripto/ListarCriptomonedas": {
+      "get": {
+        "tags": [
+          "Cripto"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

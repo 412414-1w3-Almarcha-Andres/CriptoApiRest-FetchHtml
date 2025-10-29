@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\controllers\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:controllers\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\repositories\\criptorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:repositories\\criptorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\repositories\\icriptorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:repositories\\icriptorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\services\\criptoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:services\\criptoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\services\\icriptoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:services\\icriptoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\models\\criptomoneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:models\\criptomoneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\models\\criptocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:models\\criptocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\dtos\\criptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:dtos\\criptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|c:\\users\\usuario\\desktop\\intentos modelo parcial\\sin modificar\\parcialwebapicriptoterminado\\parcialwebapi\\myreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3C0B31C0-8756-47C3-AF22-E87518E45C1A}|ParcialWebApi.csproj|solutionrelative:myreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T23:21:07.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CriptoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Controllers\\CriptoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CriptoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Controllers\\CriptoController.cs",
+              "RelativeToolTip": "Controllers\\CriptoController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T12:28:39.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CriptoServices.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Services\\CriptoServices.cs",
+              "RelativeDocumentMoniker": "Services\\CriptoServices.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Services\\CriptoServices.cs",
+              "RelativeToolTip": "Services\\CriptoServices.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:03:42.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICriptoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Repositories\\ICriptoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICriptoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Repositories\\ICriptoRepository.cs",
+              "RelativeToolTip": "Repositories\\ICriptoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T12:13:41.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CriptoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Repositories\\CriptoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CriptoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Repositories\\CriptoRepository.cs",
+              "RelativeToolTip": "Repositories\\CriptoRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwEYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T12:13:56.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICriptoServices.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Services\\ICriptoServices.cs",
+              "RelativeDocumentMoniker": "Services\\ICriptoServices.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Services\\ICriptoServices.cs",
+              "RelativeToolTip": "Services\\ICriptoServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:03:57.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Criptomoneda.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Models\\Criptomoneda.cs",
+              "RelativeDocumentMoniker": "Models\\Criptomoneda.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Models\\Criptomoneda.cs",
+              "RelativeToolTip": "Models\\Criptomoneda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T12:21:44.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CriptoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Models\\CriptoContext.cs",
+              "RelativeDocumentMoniker": "Models\\CriptoContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Models\\CriptoContext.cs",
+              "RelativeToolTip": "Models\\CriptoContext.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:03:32.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:05:23.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CriptoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\DTOs\\CriptoDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CriptoDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\DTOs\\CriptoDTO.cs",
+              "RelativeToolTip": "DTOs\\CriptoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T23:56:44.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-04T23:19:50.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MyReadme.txt",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\MyReadme.txt",
+              "RelativeDocumentMoniker": "MyReadme.txt",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\intentos modelo parcial\\sin modificar\\ParcialWebApiCriptoTerminado\\ParcialWebApi\\MyReadme.txt",
+              "RelativeToolTip": "MyReadme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-04T01:24:24.953Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
