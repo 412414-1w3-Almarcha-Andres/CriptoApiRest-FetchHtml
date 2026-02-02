@@ -1,24 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Probando fetch con bd local</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
- <link rel="stylesheet" href="stiles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Probando fetch con bd local</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="stiles.css">
 
 </head>
-<body>
-    <main class ="container">
-        <h1>Consultar lista Criptomonedas</h1>
-        <button class="btn btn-primary" onclick="recuperarCriptos()" type="button">Consultar</button>
-        <ul id="lista_criptomonedas" >
-        
-        </ul>
-    </main>
-    <script src="index.js"></script>
 
-    
+<body>
+  <main class="container-fluid">
+    <div class="row">
+
+      <!-- 🧭 Filtros laterales -->
+      <aside class="col-md-3 p-4 bg-white">
+        <h5 class="mb-4">Filtros</h5>
+        
+        <div class="mb-3">
+          <label for="filtroCategoria" class="form-label">Categoría</label>
+          <select id="filtroCategoria" class="form-select">
+            <option value="">Todas</option>
+            <option value="1">Categoría 1</option>
+            <option value="2">Categoría 2</option>
+            <option value="3">Categoría 3</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="filtroEstado" class="form-label">Estado</label>
+          <select id="filtroEstado" class="form-select">
+            <option value="">Todos</option>
+            <option value="H">Habilitado</option>
+            <option value="I">Inhabilitado</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="filtroValor" class="form-label">Valor mínimo</label>
+          <input type="number" id="filtroValor" class="form-control" placeholder="Ej: 1000">
+        </div>
+
+        <button class="btn btn-primary w-100" onclick="aplicarFiltros()">Aplicar filtros</button>
+      </aside>
+
+      <!-- 📊 Zona principal -->
+      <section class="col-md-9 p-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="h4">Criptomonedas</h2>
+          <button class="btn btn-success" onclick="recuperarCriptos()">Actualizar</button>
+        </div>
+        <ul id="lista_criptomonedas" class="grid-lista"></ul>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+
+
 </body>
+
 </html>

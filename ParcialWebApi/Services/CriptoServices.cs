@@ -14,9 +14,9 @@ namespace ParcialWebApi.Services
 
       
 
-        public Task<List<Criptomoneda?>> ConsultarCategoria(int categoria)
+        public async Task<List<Criptomoneda?>> ConsultarCategoria(int categoria)
         {
-           var resultado = _repository.ConsultarCategoria(categoria);
+           var resultado =await _repository.ConsultarCategoria(categoria);
             return resultado;
         }
 
@@ -36,7 +36,7 @@ namespace ParcialWebApi.Services
         public Task<List<Criptomoneda?>> ListarCriptomonedas()
         {
             var resultado = _repository.ListarCriptomonedas();
-            return resultado;
+            return resultado ;
         }
     }
 }

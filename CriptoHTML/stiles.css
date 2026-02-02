@@ -38,3 +38,40 @@
   transition: all 0.2s ease-in-out;
 }
 
+body {
+  background-color: #f0f2f5;
+}
+
+aside {
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  height: 100%;
+}
+
+.grid-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+h1, h2, h5 {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+aside select,
+aside input {
+  font-size: 0.9rem;
+}
+
+aside button {
+  margin-top: 1rem;
+}
+
+section h2 {
+  font-weight: 600;
+}
+
+.btn-success {
+  font-size: 0.9rem;
+}
