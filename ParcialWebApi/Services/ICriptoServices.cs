@@ -11,5 +11,6 @@ namespace ParcialWebApi.Services
         Task<string> ActualizarValor(string simbolo, double valorActual);
         Task<string> ActualizarEstado(int id, string estado);
         Task<List<Criptomoneda?>> ListarCriptomonedas();
+        Task<(bool Exito, string Mensaje)> NuevaCripto(InsertarCriptoDto dto);
     }
 }

@@ -93,5 +93,22 @@ namespace EnviosWebAppi.Controllers
             var resultado = await _criptoServices.ListarCriptomonedas();
             return Ok(resultado);
         }
+
+        //Post/criptomoneda
+        [HttpPost("NuevaCriptomoneda")]
+        public async Task<IActionResult> NuevaCripto(InsertarCriptoDto dto)
+        {
+            try
+            {
+                var nuevaCripto = await _criptoServices.NuevaCripto(dto);
+                return Ok($"criptomoneda {nuevaCripto}creada con exito");
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error interno del servidor");
+            }
+          
+        }
     }
 }

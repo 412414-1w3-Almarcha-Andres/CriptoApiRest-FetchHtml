@@ -66,5 +66,21 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EnviosWebAppi.Controllers.CriptoController",
+    "Method": "NuevaCripto",
+    "RelativePath": "api/Cripto/NuevaCriptomoneda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ParcialWebApi.DTOs.InsertarCriptoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

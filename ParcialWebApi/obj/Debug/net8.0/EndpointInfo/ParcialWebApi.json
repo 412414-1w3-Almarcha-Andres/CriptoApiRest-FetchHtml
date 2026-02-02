@@ -101,7 +101,71 @@
           }
         }
       }
+    },
+    "/api/Cripto/NuevaCriptomoneda": {
+      "post": {
+        "tags": [
+          "Cripto"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InsertarCriptoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InsertarCriptoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InsertarCriptoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "InsertarCriptoDto": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "simbolo": {
+            "type": "string",
+            "nullable": true
+          },
+          "valorActual": {
+            "type": "number",
+            "format": "double"
+          },
+          "ultimaActualizacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "categoria": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

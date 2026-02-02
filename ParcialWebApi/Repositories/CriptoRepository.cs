@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ParcialWebApi.DTOs;
 using ParcialWebApi.Models;
+using System.Xml;
 
 namespace ParcialWebApi.Repositories
 {
@@ -70,5 +71,34 @@ namespace ParcialWebApi.Repositories
            var listado = _context.Criptomonedas.ToListAsync();
             return listado;
         }
+
+        public async Task<(bool Exito, string Mensaje)> NuevaCripto(InsertarCriptoDto dto)
+        {
+            var existeNombre = await _context.Criptomonedas
+                                        .AnyAsync(a => a.Nombre == dto.Nombre);
+
+            if (existeNombre)
+                return (false, $"El nombre '{dto.Nombre}' ya está en uso");
+            var existeSimbolo = await _context.Criptomonedas.AnyAsync(a => a.Simbolo == dto.Simbolo);
+            if (existeSimbolo) return (false,$"el simbolo {dto.Simbolo} ya se encuentra en uso");
+
+
+            var entidad = new Criptomoneda
+            {
+                Nombre = dto.Nombre,
+                Simbolo = dto.Simbolo,
+                ValorActual = dto.ValorActual,
+                UltimaActualizacion = DateTime.UtcNow,
+                Categoria = dto.Categoria,
+                Estado =dto.Estado// mejor referenciar una categoría existente
+            };
+
+            _context.Criptomonedas.Add(entidad);
+            await _context.SaveChangesAsync();
+
+            return (true, $"Criptomoneda creada con Id {entidad.Id}");
+
+        }
+
     }
 }

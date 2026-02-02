@@ -1,4 +1,5 @@
-﻿using ParcialWebApi.DTOs;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using ParcialWebApi.DTOs;
 using ParcialWebApi.Models;
 using ParcialWebApi.Repositories;
 
@@ -33,10 +34,17 @@ namespace ParcialWebApi.Services
             return ok ? $"Estado de la cripto con id: {id} actualizado a : {estado}." : $"No se pudo actualizar el estado de la cripto con id: {id}."; ;
         }
 
-        public Task<List<Criptomoneda?>> ListarCriptomonedas()
+        public async Task<List<Criptomoneda?>> ListarCriptomonedas()
         {
-            var resultado = _repository.ListarCriptomonedas();
+            var resultado =await _repository.ListarCriptomonedas();
             return resultado ;
+        }
+
+        public async Task<(bool Exito, string Mensaje)> NuevaCripto(InsertarCriptoDto dto)
+        {
+            var nuevaCripto = await _repository.NuevaCripto(dto);
+            return (true, $"ok");
+          
         }
     }
 }
